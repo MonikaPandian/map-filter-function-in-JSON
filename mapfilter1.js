@@ -6,7 +6,7 @@ request.onload=function(){
     var result=JSON.parse(request.response);
     console.log(result);
 
-   var res = result.filter((ele)=>ele.region==="Africa")
+   var res = result.filter((ele)=>ele.region==="Asia")
    console.log(res);
    
 }
