@@ -6,7 +6,7 @@ request.onload=function(){
     var result=JSON.parse(request.response);
     console.log(result);
 
-var cpopu = result.filter((ele)=>ele.population < 500000)
+var cpopu = result.filter((ele)=>ele.population < 200000)
     console.log(cpopu);
 
 
